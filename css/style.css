@@ -79,10 +79,6 @@ h1, h2, h3, h4, h5, h6{
 
 /* Title Section */
 
-#title{
-    
-}
-
 #title .container-fluid{
     padding: 3% 15% 7%;
     position: relative;
@@ -103,6 +99,11 @@ h1, h2, h3, h4, h5, h6{
 #features{
     position: relative;
     z-index: 1;
+}
+
+#features p{
+    color: #8f8f8f;
+    font-weight: 500;
 }
 
 .feature-title{
@@ -164,6 +165,11 @@ h1, h2, h3, h4, h5, h6{
     padding: 100px;
 }
 
+#pricing p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
 .card-title{
     font-weight: 800;
     font-size: 1.5rem;
@@ -182,7 +188,6 @@ h1, h2, h3, h4, h5, h6{
 /* CTA */
 
 .cta-heading{
-    color: #fff;
     font-size: 4rem;
 }
 
@@ -210,7 +215,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (max-width: 1028px) {
-    #title{
+    #title .container-fluid{
         text-align: center;        
     }
     .title-img{
@@ -227,7 +232,7 @@ h1, h2, h3, h4, h5, h6{
     }
     
     .testimonial-text{
-        font-size: 1.5rem;
+        font-size: 2.2rem;
     }
     .price-text{
         font-size: 2rem;
