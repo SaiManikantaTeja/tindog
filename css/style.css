@@ -26,7 +26,7 @@ p{
 }
 
 a{
-    text-decoration: none   ;
+    text-decoration: none;
 }
 
 #title{
@@ -76,7 +76,7 @@ a{
 /* title Image */
 
 .title-img{
-    /* width: 60%; */
+    width: 20%;
     transform: rotate(25deg);
     position: absolute;
     right: 24%;
@@ -86,7 +86,7 @@ a{
 
 #features{
     background-color: #fff;
-    padding: 7% 0 ;
+    padding: 7% 1%;
     position: relative;
     z-index: 1;
 }
@@ -147,7 +147,51 @@ a{
     padding: 3% 2%;
 }
 
+/* CTA */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 12%;
+}
+
+.cta-text{
+    color: #fff;
+    font-size: 4rem;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding: 8%;
+}
+
+.fa-social{
+    margin: 1%;
+    color: #000;
+}
+
+.fa-social:hover{
+    color: #ff4c68;
+}
+
+.copyright{
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+
 @media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
     .title-img{
         position: static;
+        transform: rotate(0deg);
+        width: 60%;
     }
+}
