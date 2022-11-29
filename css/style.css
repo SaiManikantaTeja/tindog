@@ -147,6 +147,7 @@ a{
     padding: 3% 2%;
 }
 
+<<<<<<< HEAD
 /* CTA */
 
 #cta{
@@ -183,6 +184,9 @@ a{
     margin-top: 14px;
 }
 
+=======
+/* Media */
+>>>>>>> 017d79a3e47b43dcc5e9bfbe93a24d698a4698b2
 
 @media (max-width: 1028px) {
     #title{
@@ -191,7 +195,12 @@ a{
 
     .title-img{
         position: static;
+<<<<<<< HEAD
         transform: rotate(0deg);
         width: 60%;
     }
 }
+=======
+    }
+}
+>>>>>>> 017d79a3e47b43dcc5e9bfbe93a24d698a4698b2
