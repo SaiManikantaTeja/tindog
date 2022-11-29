@@ -147,6 +147,8 @@ a{
     padding: 3% 2%;
 }
 
+/* Media */
+
 @media (max-width: 1028px) {
     .title-img{
         position: static;
