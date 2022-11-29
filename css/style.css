@@ -61,10 +61,14 @@ a{
 }
 
 .nav-link{
-    color: #fff;
+    color: #ffacac;
     font-size: 1.2rem;
     font-family: "Montserrat";
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: white;
 }
 
 /* Buttons */
@@ -187,7 +191,6 @@ a{
     #title{
         text-align: center;
     }
-
     .title-img{
         position: static;
         transform: rotate(0deg);
